@@ -1,0 +1,34 @@
+
+{
+	"name": "objectid-purejs",
+	"description": "Simple implementation MongoDB ObjectID in pure javascript for Node.js",
+	"keywords": [
+		"mongodb",
+		"objectid"
+	],
+	"files": [
+		"lib",
+	],
+	"version": "1.0.0",
+	"author": "Eduardo Luiz <wakkoedu@gmail.com>",
+	"contributors": [],
+	"repository": "twla/objectid-purejs",
+	"bugs": {
+		"mail": "node-mongodb-native@googlegroups.com",
+		"url": "https://github.com/twla/objectid-purejs/issues"
+	},
+	"devDependencies": {
+		"bson": "0.4.23"
+	},
+	"config": {
+		"native": false
+	},
+	"main": "./index",
+	"directories": {
+		"lib": "./lib"
+	},
+	"engines": {
+		"node": ">=0.6.19"
+	},
+	"license": "MIT"
+}
